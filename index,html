@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Brand | Increase Sales</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white text-center py-20">
+    <h1 class="text-4xl font-bold mb-4">Boost Your Style, Boost Your Sales!</h1>
+    <p class="text-lg mb-6">Premium quality products at student-friendly prices.</p>
+    <a href="#products" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-200 transition">
+      Shop Now
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-16 px-6 text-center max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Why Choose Us?</h2>
+    <p class="text-gray-600">We’re a youth-led brand focused on delivering modern, affordable, and quality products to students and young professionals. We believe great style shouldn’t break the bank.</p>
+  </section>
+
+  <!-- Products/Services -->
+  <section id="products" class="bg-gray-100 py-16 px-6">
+    <h2 class="text-center text-2xl font-bold mb-10">Our Best Sellers</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <!-- Product Card -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="https://via.placeholder.com/300" alt="Product 1" class="w-full h-48 object-cover rounded-md mb-4">
+        <h3 class="text-lg font-semibold">Minimalist Watch</h3>
+        <p class="text-gray-600 mb-2">Sleek, modern, and made for students.</p>
+        <span class="font-bold text-blue-600">৳1499</span>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="https://via.placeholder.com/300" alt="Product 2" class="w-full h-48 object-cover rounded-md mb-4">
+        <h3 class="text-lg font-semibold">Smart Backpack</h3>
+        <p class="text-gray-600 mb-2">Water-resistant with USB charging port.</p>
+        <span class="font-bold text-blue-600">৳1899</span>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="https://via.placeholder.com/300" alt="Product 3" class="w-full h-48 object-cover rounded-md mb-4">
+        <h3 class="text-lg font-semibold">Digital Organizer</h3>
+        <p class="text-gray-600 mb-2">Perfect for keeping study and business on track.</p>
+        <span class="font-bold text-blue-600">৳999</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 px-6 bg-white text-center">
+    <h2 class="text-2xl font-bold mb-8">What Our Customers Say</h2>
+    <div class="max-w-4xl mx-auto space-y-8">
+      <blockquote class="text-gray-600 italic">"Amazing quality for the price. I’ve never been more satisfied with a student-friendly brand!" — <span class="font-semibold">Rafi, DU Student</span></blockquote>
+      <blockquote class="text-gray-600 italic">"Stylish, affordable, and reliable. Will definitely order again." — <span class="font-semibold">Amina, NSU</span></blockquote>
+    </div>
+  </section>
+
+  <!-- Final Call to Action -->
+  <section class="bg-blue-600 text-white text-center py-12">
+    <h2 class="text-2xl font-bold mb-4">Ready to Upgrade Your Look?</h2>
+    <a href="#products" class="bg-white text-blue-600 px-6 py-3 font-semibold rounded-full hover:bg-gray-200 transition">Browse Collection</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-200 py-8 text-center">
+    <p>&copy; 2025 YourBrand. All rights reserved.</p>
+    <p class="text-sm">Follow us on Instagram | WhatsApp | TikTok</p>
+  </footer>
+
+</body>
+</html>
